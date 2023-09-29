@@ -1,0 +1,19 @@
+import java.util.*;
+public class countnum {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter numner: ");
+        int n = scn.nextInt();
+
+        int dig = 0;
+        System.out.print("number of digits: ");
+        while(n != 0){
+            n = n/10;
+            dig++;
+        }
+        System.out.println(dig);
+
+
+    }
+    
+}
